@@ -1,18 +1,18 @@
 # Surfs_up_analysis
-Weather analysis for surfs n shake using SQLite and SQLAlchemy. Click here on link to see analysis for June and December : [Surfup analysis for June and December](https://github.com/miralchangela/Surf-s_up_analysis/blob/main/SurfsUp_Challenge.ipynb)
+Weather analysis for surfs n shake using SQLite and SQLAlchemy. Click here on the link to see the analysis for June and December : [Surfup analysis for June and December](https://github.com/miralchangela/Surf-s_up_analysis/blob/main/SurfsUp_Challenge.ipynb)
 
 ## Overview of Surfs Up Analysis
 
-The purpose of this analysis is to review a dataset for weather conditions that has been stored in a [SQLite database](https://github.com/miralchangela/Surf-s_up_analysis/blob/main/hawaii.sqlite) to provide information that will convince an investor that opening up a **Surf n' Shake** shop in Oahu, Hawaii is a good business idea.
+The purpose of this analysis is to review a dataset for weather conditions that have been stored in a [SQLite database](https://github.com/miralchangela/Surf-s_up_analysis/blob/main/hawaii.sqlite) to provide information that will convince an investor that opening up a **Surf n' Shake** shop in Oahu, Hawaii is a good business idea.
  
-* The idea is that the shop will sell surf boards and ice cream throughout the year, but the investor is hesitant because he invested in a similar business that failed due to the weather conditions. 
-* In order to get this investor on board, we need to provide statistical analysis specifically on the weather conditions in Oahu that will convince him that this will be a successful business venture.
-* To convince an investor, we used  [Jupyter notebook](https://github.com/miralchangela/Surf-s_up_analysis/blob/main/climate_analysis.ipynb) for weather analysis for different criteria.
+* The idea is that the shop will sell surfboards and ice cream throughout the year, but the investor is hesitant because he invested in a similar business that failed due to the weather conditions. 
+* To get this investor on board, we need to provide statistical analysis specifically on the weather conditions in Oahu that will convince him that this will be a successful business venture.
+* To convince an investor, we used  [Jupiter notebook](https://github.com/miralchangela/Surf-s_up_analysis/blob/main/climate_analysis.ipynb) for weather analysis for different criteria.
 * Below is a sample of the dependencies and functions that were used to access the content in the *SQLite* database:
 
 ![SQLAlchemy dependencies](https://github.com/miralchangela/Surf-s_up_analysis/blob/main/Resources/dependencies.png)
 
-* We also used *Visual Studio Code* to create Python applications to share the results via a webpage by creating *Flask* routes and using Terminal to run the `Flask` app.
+* We also used *Visual Studio Code* to create Python applications to share the results via a webpage by creating *Flask* routes and using Terminal to run the Flask app.
 
 
 ## Results
@@ -21,7 +21,7 @@ The purpose of this analysis is to review a dataset for weather conditions that 
 
 ![exploretry climate analysis](https://github.com/miralchangela/Surf-s_up_analysis/blob/main/Resources/EDA_for_precipitation_plot.png)
 
-After running the program we get a graph plot of last year's rainfall. Its image is shown below:
+* After running the program we get a graph plot of last year's rainfall. Its image is shown below:
 
 ![last_year_precipitation_observation](https://github.com/miralchangela/Surf-s_up_analysis/blob/main/Resources/last_year_precipitation_observation.png)
 
@@ -31,35 +31,41 @@ After running the program we get a graph plot of last year's rainfall. Its image
 
 * We expanded our results to look at all of the observations which were recorded in the month of **June** and **December** regardless of year. 
 
-The program and dataframe of month of june is shown below which includes dates and temprature:
+The program and dataframe for June are shown below which include dates and temperature:
 
 ![june_dataframe_code](https://github.com/miralchangela/Surf-s_up_analysis/blob/main/Resources/june_dataframe_code.png)
 
 ![june_dataframe](https://github.com/miralchangela/Surf-s_up_analysis/blob/main/Resources/june_dataframe.png)
 
-The program and dataframe of month of june is shown below which includes dates and temprature:
+The program and dataframe for the month of December are shown below which include dates and temperature:
 
 ![dec_dataframe_code](https://github.com/miralchangela/Surf-s_up_analysis/blob/main/Resources/dec_dataframe_code.png)
 
 ![dec_dataframe](https://github.com/miralchangela/Surf-s_up_analysis/blob/main/Resources/dec_dataframe.png)
 
-* Here comparision between month of June and december.
+* Here comparison between the month of June and December.
 
 ![june_dec_summary](https://github.com/miralchangela/Surf-s_up_analysis/blob/main/Resources/june_dec_summary.png)
 
 The result showed that:
+
 * The average temperature is in the 70's.
 * Both June and December showed similar min/max and average temperatures.
 * The assumption is that the temperature does not have drastic fluctuations throughout the year.
 
 ## Summary
+
 * In summary, the temperature in Oahu is relatively the same throughout the year and the chances of continuous rainfall are low. 
 
 * there are two additional queries to perform to gather more weather data for June and December:
 
-1)  When we rewrite the queries to add precipitation to the results for June and December,The average precipitation in those months showed:
-        - June at 14%
-        - December at 22%
+1)  When we rewrite the queries to add precipitation to the results for June and        December, the average precipitation in those months showed:
+        * June at 14%
+        * December at 22%
+
 2) we can also add average hours of sunshine per day.
+
+
+
 
 
