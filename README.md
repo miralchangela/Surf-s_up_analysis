@@ -48,6 +48,7 @@ The program and dataframe of month of june is shown below which includes dates a
 ![june_dec_summary](https://github.com/miralchangela/Surf-s_up_analysis/blob/main/Resources/june_dec_summary.png)
 
 The result showed that:
+
 * The average temperature is in the 70's.
 * Both June and December showed similar min/max and average temperatures.
 * The assumption is that the temperature does not have drastic fluctuations throughout the year.
