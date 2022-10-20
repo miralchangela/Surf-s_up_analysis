@@ -45,7 +45,7 @@ The program and dataframe of month of june is shown below which includes dates a
 
 * Here comparision between month of June and december.
 
-![june_dec_summary](https://github.com/miralchangela/Surf-s_up_analysis/blob/main/Resources/june_dec_summary.png)
+![june_dec_summary](https://github.com/miralchangela/Surf-s_up_analysis/blob/main/Resources/June_dec_summary.png)
 
 The result showed that:
 
